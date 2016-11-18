@@ -1,4 +1,4 @@
 djangorestframework
 django-filter
 Django
-PIL
+Pillow
