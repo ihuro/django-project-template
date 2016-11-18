@@ -21,7 +21,7 @@ setup(
     install_requires=[str(r.req) for r in REQUIREMENTS],
     entry_points={
         'console_scripts': [
-            'manage = {{project_name}}.manage:do_manage',
+            'manage = manage:do_manage',
         ],
     },
 )
